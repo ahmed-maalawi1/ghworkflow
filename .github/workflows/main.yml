@@ -6,7 +6,8 @@ on:
       - main
 jobs:
   example-job:
-    runs-on: ubuntu-latestsdf
+    runs-on: ubuntu-latest
+    
     steps:
       - name: Print a welcom message
         run: echo "Welecom to our first GitHub workflow"
