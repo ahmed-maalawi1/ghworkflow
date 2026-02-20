@@ -1,11 +1,15 @@
 {
-  "name": "simple"
+  "name": "ghworkflow",
   "version": "1.0.0",
-  "description": "A simple Node.js"
+  "description": "",
   "main": "src/app.js",
-
   "scripts": {
-    "test":"bash src/test.sh"
+    "test": "test"
   },
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git@github-ahmed1:ahmed-maalawi1/ghworkflow.git"
+  },
+  "author": "",
+  "license": "ISC"
 }
