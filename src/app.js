@@ -4,7 +4,7 @@ function greet(name) {
 
 module.exports = greet;
 
-console.log("test push-pr ci file");
+console.log("test push-pr ci file ??");
 
 if (require.main === module) {
   console.log(greet("world"));
